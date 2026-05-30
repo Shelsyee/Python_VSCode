@@ -18,7 +18,3 @@ response_post = requests.post(URL, data=data)
 print(dict(response_post.headers))
 print("\nCódigo de estado:", response_post.status_code)
 
-cd ~/Python_VSCode
-git add PYTHON_4_4.py
-git commit -m "Ejercicio 4_4 resuelto - GET y POST"
-git push origin main
